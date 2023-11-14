@@ -1,0 +1,54 @@
+<html>
+<head>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        p {
+            font-family: verdana;
+            font-size: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border: 5px solid black;
+            box-shadow: 10px 10px 5px grey;
+            transition: transform 1s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box:hover {
+            transform: rotate(360deg);
+        }
+        .text {
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>腾爹网页</h1>
+    <p>孽畜，还不现出原形！！！</p>
+    <div class="container">
+        <div class="box" style="background-color: red;">
+            <span class="text" style="color: rgb(255, 255, 255); font-size: 20px;">我是</span>
+        </div>
+        <div class="box" style="background-color: green;">
+            <span class="text" style="color: yellow; font-size: 20px;">你的</span>
+        </div>
+        <div class="box" style="background-color: blue;">
+            <span class="text" style="color: rgb(0, 0, 0); font-size: 20px;">大爹</span>
+        </div>
+    </div>
+</body>
+</html>
